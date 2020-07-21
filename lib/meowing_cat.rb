@@ -1,9 +1,13 @@
 class Cat 
   attr_accessor :name 
   
-  def meow
-    @this_cat_meow = Cat
+  def meow=(cats_meow)
+    @this_cat_meow = cats_meow
     "meow!"
+  end
+
+  def meow
+    puts "meow!"
   end
 end
 
