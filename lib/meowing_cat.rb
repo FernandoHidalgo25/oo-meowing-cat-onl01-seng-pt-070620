@@ -1,7 +1,6 @@
 class Cat 
   attr_accessor :name 
   
-end
   def meow
     @this_cat_bark = Cat
     "meow!"
